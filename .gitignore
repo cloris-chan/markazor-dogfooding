@@ -1,0 +1,60 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100/
+.Trashes/
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE state
+.vs/
+.vscode/
+.idea/
+.fleet/
+.ionide/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.iml
+*.DotSettings.user
+
+# Build output
+bin/
+obj/
+publish/
+out/
+dist/
+artifacts/
+*.binlog
+
+# Test and coverage output
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage-*/
+coverage.cobertura.xml
+
+# NuGet output and local package caches
+*.nupkg
+*.snupkg
+packages/
+.nuget/packages/
+
+# Azure Functions and local secrets
+local.settings.json
+**/local.settings.json
+*.pubxml.user
+
+# Local environment files
+.env
+.env.*
+!.env.example
+*.tmp
+*.temp
+*.log
